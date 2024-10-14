@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Simple Tailwind Starter</title>
+  </head>
+  <body class="bg-white overflow-x-hidden">
+    <div class="container flex flex-col justify-center   ">
+      <div class="header flex flex-col justify-center items-center mt-4 w-screen">
+        <!-- logo -->
+        <img src="./assets/logo.svg" alt="logo">
+      </div>
+      <!-- Pattern 1 -->
+      <div class="top-section grid md:grid-cols-3 grid-cols-1 justify-center items-center mt-24 gap-10 md:w-screen  ">
+        <div class="pattern-1  ">
+          <img src="./assets/desktop/image-hero-left.png" alt="image-hero-left" class=" absolute top-32 -left-5 hidden md:block">
+          <img src="./assets/tablet/image-hero.png" alt="image-hero" class="md:hidden block max-w-md">
+        </div>
+        <div class="content flex flex-col justify-center items-center      ">
+          <!-- Heading -->
+          <div class="heading  ">
+            <h1 class="text-dgrey md:text-3xl text-3xl  w-72 md:max-w-sm font-bold text-serif text-center">Group Chat
+              for Everyone</h1>
+          </div>
+          <!-- para -->
+          <div class="text mt-5">
+            <p class="text-grey max-w-lg  text-center text-serif">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+          </div>
+          <!-- buttons -->
+          <div class="btns flex mt-5 gap-5">
+            <!-- button-1  -->
+            <div class="btn-1" >
+              <button class="px-5 py-3 hover:opacity-70 bg-lightblue text-white rounded-3xl">Download <span class="text-tblue">vl3</span></button>
+            </div>
+            <!-- button 2 -->
+            <div class="btn-2" >
+              <button class="px-5 py-3 hover:opacity-70 bg-purple text-white rounded-3xl">What is it?   </button>
+            </div>
+          </div>
+        
+        </div>
+        <!-- Pattern 2 -->
+        <div class="pattern-2  ">
+          <img src="./assets/desktop/image-hero-right.png" alt="image-hero-right" class=" absolute top-32 -right-7 md:block hidden">
+        </div>
+
+      </div>
+      <!-- Desgin  -->
+      <div class="design flex flex-col justify-center items-center mt-32 w-screen">
+        <div class="line w-[1px] h-14 bg-dgrey">
+          
+        </div>
+        <div class="circle w-10 h-10 border border-dgrey rounded-full flex justify-center items-center">
+          01
+        </div>
+      </div>
+        <!-- Album -->
+      <div class="album w-screen">
+      <div class=" flex  md:w-[1100px]  justify-center items-center mx-auto mt-5 gap-6  flex-row w-[550px]   ">
+        <div class="div">
+        <img src="./assets/desktop/image-woman-in-videocall.jpg" alt="image-woman-in-videocall" class="rounded-lg ">
+      </div>
+      <div>
+        <img src="./assets/desktop/image-women-videochatting.jpg" alt="image-women-videochatting" class="rounded-lg">
+      </div>
+      <div>
+        <img src="./assets/desktop/image-men-in-meeting.jpg" alt="image-men-in-meeting" class="rounded-lg">
+      </div> 
+      <div>
+        
+        <img src="./assets/desktop/image-man-texting.jpg" alt="image-man-texting" class="rounded-lg items-center" >
+      </div>
+      </div>
+    </div>
+
+      <!-- section middle-2 -->
+      <section class="middle-2 flex flex-col justify-center items-center mt-24 w-screen">
+        <!-- text -->
+        <p class="text text-lightblue tracking-widest  font-bold uppercase">
+          Built for modern use
+        </p>
+        <!-- Heading -->
+        <h1 class="text-dgrey text-4xl w-96 font-bold font-sans mt-5 text-center">
+          Smarter meetings, all in one place
+        </h1>
+        <!-- Para -->
+        <p class="text-grey w-96 text-center mt-5">
+          Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.
+        </p>
+      </section>
+      <!-- Design-2 -->
+      <div class="design flex flex-col justify-center items-center mt-32 w-screen">
+        <div class="line w-[1px] h-14 bg-dgrey bg-opacity-50">
+          
+        </div>
+        <div class="circle bg-white border w-10 h-10  border-dgrey rounded-full flex justify-center items-center">
+          02
+        </div>
+      </div>
+
+    </div>
+
+    <section class="footer mt-20">
+      <div class="image-f relative">
+      <img src="./assets/desktop/image-footer.jpg" alt="footer-image" class="w-screen h-[370px] md:block hidden">
+      <img src="./assets/tablet/image-footer.jpg" alt="image-footer" class="md:hidden block">
+      <div class="footer-conent  absolute flex md:flex-row  flex-col  justify-center items-center bg-lightblue bg-opacity-80 md:w-full top-0 md:h-[370px] h-full w-full gap-10  ">
+        <div class="heading text-center">
+        <h1 class="text-white text-4xl w-96 font-bold font-sans  ">Experience more together</h1>
+      </div>
+      <div class="para-f md:text-center">
+        <p class="text-white md:w-60 max-w-lg text-center">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+      </div>
+      <div class="btn-f md:ml-36  ">
+        <button class="px-12 py-2  hover:opacity-70 bg-purple text-white rounded-3xl">Download</button>
+      </div>
+      </div>
+    </div>
+    </section>
+   
+  </body>
+</html>
